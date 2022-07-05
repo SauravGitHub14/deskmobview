@@ -1,0 +1,106 @@
+img{
+	width: 500px;
+	height: 250px;
+}
+
+body{
+	font-family: monospace;
+
+}
+
+.box1 {
+    text-align: justify;
+    font-family: monospace;
+    background: blueviolet;
+    margin: 0px;
+    padding: 20px;
+}
+
+.container{
+	padding: 50px;
+
+}
+   	.parent{
+        position: relative;
+    }
+    .child1{
+        position: absolute;
+        width: 400px;
+        height: 200px;
+        z-index: 1;
+        border-radius: 5px;
+    }
+    .child2{
+        position: absolute;
+        margin: 35px;
+        left: 250px;
+        padding: 5px;
+        width: 350px;
+        height: 110px;
+        z-index: 2;
+        background: #cacae2;
+        border-radius: 5px;
+        font-size: 10px;
+        border-width:4px;
+        border-style:solid;
+        border-color:#1fabff;
+    }
+    
+    	.parent1{
+        position: relative;
+    }
+    .childd1{
+        position: absolute;
+        width: 300px;
+        height: 150px;
+        z-index: 1;
+       
+        border-radius: 5px;
+
+    }
+    .childd2{
+        position: absolute;
+        margin: 35px;
+        left: -200px;
+        padding: 5px;
+        width: 350px;
+        height: 110px;
+        z-index: 2;
+        background: #cacae2;
+        border-radius: 5px;
+        font-size: 10px;
+        /*border-width:5px;
+        border-style:solid;
+        border-color:#1fabff;*/
+
+    }
+    
+    .parent {
+    display: flex;
+    padding: 30px;
+   
+    margin-bottom: 250px;
+    text-align: justify;
+}
+
+.parent1 {
+    display: flex;
+    left: 300px;
+    padding: 80px;
+    text-align: justify;
+}
+
+ img{
+ 	width: 400px;
+ 	height: 200;
+ }
+ button{
+ 	background: #300781;
+ 	color: white;
+ 	font-size: 10px;
+ 	padding: 5px;
+ 	text-decoration: none; 
+ 	border-radius: 5px;
+ 	border-color: #300781;
+ }
+ 
